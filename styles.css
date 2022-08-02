@@ -1,0 +1,111 @@
+html  {
+  font-family: 'Noto Sans', sans-serif;
+  
+}
+
+body  {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+header  {
+  margin: 15% auto;
+  font-size: 3rem;
+  text-align: center;
+}
+
+header img  {
+  max-width: 100%;
+  height: auto;
+}
+
+img  {
+  border-radius: 2rem;
+}
+
+h2  {
+  font-family: 'Cinzel', serif;
+}
+
+h3  {
+  text-align: right;
+  
+  font-size: 2rem;
+  padding-right: 2rem;
+  border-bottom: 0.2rem solid #292929;
+  
+  
+}
+
+section  {
+  margin-top: 10%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+  background: white;
+  z-index: 1;
+  
+}
+
+nav ul {
+  list-style: none;
+  text-transform: lowercase;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1rem;
+  padding-left: 1rem;
+    
+}
+
+nav a {
+  color: rgb(116, 116, 116);
+}
+
+nav a:visited {
+  color: rgb(39, 34, 34);
+}
+
+nav a:hover  {
+  background-color:rgb(204, 208, 91)
+}
+
+.container  {
+  
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  
+  
+  
+  
+}
+
+.container img {
+  max-width: 100%;
+  width: 720px;
+  height: auto;
+  float: left;
+  margin-right: 5%;
+  
+}
+
+.container p  {
+  margin-right: 2%;
+  text-align: justify;
+  
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container img  {
+    float: none;
+  }
+
+}
