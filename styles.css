@@ -109,3 +109,11 @@ nav a:hover  {
   }
 
 }
+
+#clock  {
+  color: #a80000;
+}
+
+#date  {
+  color: #1908af;
+}
